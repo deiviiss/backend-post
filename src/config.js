@@ -9,11 +9,6 @@ const config = {
   dbPort: process.env.DB_PORT,
   dbDatabase: process.env.DB_DATABASE,
   dbUrl: process.env.DATABASE_URL,
-  apiKey: process.env.API_KEY,
-  jwtSecret: process.env.JWT_SECRET,
-  smtpEmail: process.env.SMTP_EMAIL,
-  smtpPassword: process.env.SMTP_PASSWORD,
-  jwtRecoveryPassword: process.env.JWT_RECOVERY_PASSWORD,
   nameCloudinary: process.env.CLOUDINARY_NAME,
   apiKeyCloudinary: process.env.API_KEY_CLOUDINARY,
   apiSecretCloudinary: process.env.API_SECRET_CLOUDINARY
