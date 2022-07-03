@@ -11,7 +11,7 @@
     "migrations:revert": "sequelize-cli db:migrate:undo",
     "migrations:delete": "sequelize-cli db:migrate:undo:all",
     "migrations:debug": "sequelize-cli db:migrate --debug",
-    "start": "node src/app.js"
+    "start": "node src/index.js"
   },
   "keywords": [
     "NodeJs",
